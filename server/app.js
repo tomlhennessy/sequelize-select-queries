@@ -64,7 +64,7 @@ app.get('/puppies/shepherds', async (req, res, next) => {
 
 
 // BONUS STEP 6
-// All puppies with age_yrs <= 1yr and weight_lbs <= 20lbs
+// All puppies with ageYrs <= 1yr and weightLbs <= 20lbs
 // WHERE clause with multiple attributes and comparisons
 app.get('/puppies/tinybabies', async (req, res, next) => {
     let tinyBabyPuppies;

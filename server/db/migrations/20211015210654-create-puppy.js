@@ -11,13 +11,13 @@ module.exports = {
       name: {
         type: Sequelize.STRING
       },
-      age_yrs: {
+      ageYrs: {
         type: Sequelize.FLOAT
       },
       breed: {
         type: Sequelize.STRING
       },
-      weight_lbs: {
+      weightLbs: {
         type: Sequelize.INTEGER
       },
       microchipped: {
